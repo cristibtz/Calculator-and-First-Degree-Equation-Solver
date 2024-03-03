@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDE Solver</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="cssHTML/FDE.css">
+    <link rel="stylesheet" href="cssHTML/common.css">
+
+</head>
+<body>
+
+    <nav>
+        <h1>Calculator Project</h1>
+
+        <ul>
+            <li><a href="calcProj.html">Simple calculations</a></li>
+            <li><a href="#" class="selected" target="_blank">FDE Solver</a></li>
+        </ul>
+    </nav>
+
+    <div class="box">
+        <div class="content">
+            <h3>This is a First Degree Equation solver in the form of a * x + b = 0. <br/> 
+                To solve for x, please input the values of a and b.
+            </h3>
+
+            <div class="container">
+                <input type="number" id="numberA"> <span id="multi"> * </span> <span id="unkX"> x </span> <span id="sign"> + </span> <input  type="number" id="numberB"> <span id="equal"> = </span> <span id="zero"> 0 </span>
+                <button class="solve">Solve for x!</button>
+            </div>
+            <div class="result">
+                x = ?
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>By Cristi BTZ</h4>
+    </footer>
+
+</body>
+<script src="js/FDE.js"></script>
+</html>

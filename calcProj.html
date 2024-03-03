@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculations</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="cssHTML/calc.css">
+    <link rel="stylesheet" href="cssHTML/common.css">
+
+</head>
+<body>
+
+    <nav>
+        <h1>Calculator Project</h1>
+
+        <ul>
+            <li><a href="#" class="selected">Simple calculations</a></li>
+            <li><a href="FDEsolver.html">FDE Solver</a></li>
+        </ul>
+    </nav>
+
+    <div class="box">
+        <div class="content">
+            <h3>Choose from one of the operations below to start:</h3>
+
+            <select name="operation" id="list">
+                <option value="add">
+                    Addition
+                </option>
+                
+                <option value="subtr">
+                    Subtraction
+                </option>
+            
+                <option value="multi">
+                    Multiplication
+                </option>
+            
+                <option value="div">
+                    Division
+                </option>
+    
+                <option value="pow">
+                    Power
+                </option>
+                
+            </select>
+            <div class="container">
+                <input placeholder="Add any number" type="number" id="first"> <span id="sign"> + </span> <input placeholder="Add any number" type="number" id="second"> <span id="equal"> = </span> <span id="result"> ? </span>
+                <button class="calc">Calculate!</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>By Cristi BTZ</h4>
+    </footer>
+
+</body>
+<script src="js/calc.js"></script>
+</html>
