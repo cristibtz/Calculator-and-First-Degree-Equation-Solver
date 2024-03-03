@@ -1,0 +1,55 @@
+.solve {
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.result {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#equal, #sign, #zero {
+    font-size: 25px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-weight: bold;
+}
+
+#zero {
+    margin-left: 0;
+}
+
+#multi {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#unkX {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+    

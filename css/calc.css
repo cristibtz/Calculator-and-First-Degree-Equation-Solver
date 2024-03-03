@@ -1,0 +1,52 @@
+
+#list {
+    position: relative;
+    left: 40%;
+    font-size: 30px;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px auto;
+}
+
+.calc {
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    width: 120px;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+#equal, #sign, #result {
+    font-size: 25px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-weight: bold;
+}
+
+#result {
+    margin-left: 0;
+}
+
+.power {
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+}
